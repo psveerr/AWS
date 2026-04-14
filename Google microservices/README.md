@@ -24,7 +24,7 @@ The Terraform configuration provisions:
 ## Project Structure
 
 ```
-Google_microservies/
+Google microservies/
 ├── k8s/
 │   └── microservices.yaml
 ├── modules/
@@ -50,7 +50,7 @@ Google_microservies/
 1. Clone the repository:
    ```
    git clone <repository-url>
-   cd Google_microservices
+   cd Google microservices
    ```
 
 2. Configure AWS credentials:
