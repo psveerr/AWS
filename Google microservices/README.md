@@ -24,21 +24,13 @@ The Terraform configuration provisions:
 ## Project Structure
 
 ```
-FINAL_GOOGLE/
-├── .terraform/
-├── .aws/
-├── dist/
-├── install/
-├── README.md
-├── THIRD_PARTY_LICENSES
+Google_microservies/
 ├── k8s/
 │   └── microservices.yaml
 ├── modules/
 │   ├── ec2/
 │   ├── eks/
 │   └── vpc/
-├── .terraform.lock.hcl
-├── awscliv2.zip
 ├── main.tf
 ├── outputs.tf
 ├── providers.tf
@@ -58,7 +50,7 @@ FINAL_GOOGLE/
 1. Clone the repository:
    ```
    git clone <repository-url>
-   cd FINAL_GOOGLE
+   cd Google_microservices
    ```
 
 2. Configure AWS credentials:
@@ -120,9 +112,3 @@ To destroy all infrastructure:
 ```
 terraform destroy
 ```
-
-## Notes
-
-- Ensure AWS billing is enabled  
-- Review `terraform.tfvars` before applying  
-- Kubernetes deployment requires a working EKS cluster  
