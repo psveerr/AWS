@@ -1,6 +1,6 @@
 # FinTech Microservices Deployment on AWS using Terraform, Docker, Kubernetes & GitOps
 
-A production-grade DevOps project demonstrating the deployment of a highly available, scalable, and secure microservices-based fintech application on :contentReference[oaicite:0]{index=0} using modern DevOps practices.
+A production-grade DevOps project demonstrating the deployment of a highly available, scalable, and secure microservices-based fintech application using modern DevOps practices.
 
 This project implements complete infrastructure automation, containerization, orchestration, CI/CD, monitoring, and GitOps deployment.
 
